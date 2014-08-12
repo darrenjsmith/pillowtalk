@@ -318,6 +318,20 @@ section h3.section-statement {
 #what button {
   margin-top: 15px;
 }
+#start {
+  background-image: url('../img/start-bg.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#start h2.section-heading,
+#start h3.section-subheading {
+  color: #FFF;
+}
 .service-heading {
   margin: 15px 0;
   text-transform: none;
