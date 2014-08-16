@@ -236,6 +236,12 @@ section {
 	  	font-style: italic;
 	  	font-weight: 200;
 	}
+  	h3.section-question {
+	  	margin-bottom: 35px;
+	  	.serif-font;
+	  	font-style: italic;
+	  	font-weight: 200;
+	}
   	h3.section-statement {
 	  	font-size: 40px;
 	  	margin-bottom: 150px;
@@ -246,35 +252,51 @@ section {
 
 @media(min-width:768px) {
 	section {
-		padding: 150px 0;
+		padding: 100px 0;
 	}
 }
 
 // Why Section
 
 #why {
-  em {
+    em {
   		text-transform: uppercase;
 		margin-top: 20px;
 		display: block;
-  }
+    }
+    li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        list-style-type:circle;
+    }
+    h3 {
+        line-height: 1.4em;
+        padding-bottom: 15px;
+    }
+    p {
+        margin-bottom: 30px;
+    }
+    .top-border {
+        margin-top: 50px;
+    }
 }
 
 // Want Section
 
 #want {
-	.section-question {
-		font-size: 26px;
-	}
+
 	.section-statement {
 		font-size: 28px;
-		margin-bottom: 40px;
+		margin-bottom: 80px;
 		line-height: 1.4em;
 	}
+	.section-question {
+		font-size: 20px;
+	}
 	h4 {
+        padding-top: 50px;
 		padding-bottom: 40px;
-		text-transform: uppercase;
-		font-size: 24px;
+		font-size: 20px;
 	}
 }
 

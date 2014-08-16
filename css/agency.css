@@ -287,6 +287,12 @@ section h2.section-question {
   font-style: italic;
   font-weight: 200;
 }
+section h3.section-question {
+  margin-bottom: 35px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 200;
+}
 section h3.section-statement {
   font-size: 40px;
   margin-bottom: 150px;
@@ -294,7 +300,7 @@ section h3.section-statement {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 #why em {
@@ -302,18 +308,33 @@ section h3.section-statement {
   margin-top: 20px;
   display: block;
 }
-#want .section-question {
-  font-size: 26px;
+#why li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+#why h3 {
+  line-height: 1.4em;
+  padding-bottom: 15px;
+}
+#why p {
+  margin-bottom: 30px;
+}
+#why .top-border {
+  margin-top: 50px;
 }
 #want .section-statement {
   font-size: 28px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   line-height: 1.4em;
 }
+#want .section-question {
+  font-size: 20px;
+}
 #want h4 {
+  padding-top: 50px;
   padding-bottom: 40px;
-  text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
 }
 #what button {
   margin-top: 15px;
