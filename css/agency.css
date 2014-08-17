@@ -336,7 +336,7 @@ section h3.section-statement {
   padding-bottom: 40px;
   font-size: 20px;
 }
-#what button {
+#what .margin-top {
   margin-top: 15px;
 }
 #start {
